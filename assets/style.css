@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+:root{
+    --main-color: #c39bc3;
+    --dark-main-color: #b05bb0;
+    --background-color: #fff7f1;
+    --cosmetic-color: #620d62;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', arial;
+}
+
+body{
+    background-color: var(--background-color);
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+/* --------------------common---------------------------------------- */
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.dark-main{
+    color: var(--dark-main-color);
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------common end------------------------------------- */
+
+
+
+
+
+/* ---------------------------------------------------------------contactDetails/top---------------------------------------------------- */
+
+
+.contactInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 30px;
+}
+.borderBottom{
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.316);
+}
+
+.personalDetails{
+    display: flex;
+    gap: 50px;
+}
+
+.personalDetails a{
+    font-size: 14px;
+    padding: 5px 0;
+    display: inline-bloc3;
+}
+.socialMedia{
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+.socialMedia a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-main-color);
+    height: 26px;
+    width: 26px;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.socialMedia a img{
+    height: 13px;
+    width: 13px;
+}
+
+
+
+/* ---------------------------------------------------------------contactDetails/top-end------------------------------------------------- */
+
+
+
+
+/* -----------------------------------------------------------upper Menu--------------------------------------------------------- */
+
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: var(--background-color);
+    z-index: 1;
+}
+
+.upperMenu .logo img{
+    height: 70px;
+    width: 100px;
+}
+
+.upperMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.upperMenuItems {
+display: flex;
+gap: 30px;
+}
+
+.upperMenuItems a{
+font-weight: 600;
+font-size: 16px;
+}
+
+
+
+/* -----------------------------------------------------------upper Menu-end---------------------------------------------------- */
+
+
+
+
+/* ------------------------------------------lowerMenu ------------------------------------------------------------------------- */
+
+
+.lowerMenuOutercontainer-xxl{
+    background-color: var(--main-color);
+}
+
+.lowerMenu{
+    
+    display: flex;
+    justify-content: start;
+}
+
+.lowerMenu .lowerMenuItems a{
+    font-weight: 600;
+    padding: 15px 25px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.lowerMenu .lowerMenuItems:hover .lowerMenuDropdown{
+display: block;
+}
+
+.lowerMenuItems .lowerMenuDropdown a {
+    line-height: 1.6;
+}
+
+
+.lowerMenuDropdown{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 3px 1px 1px #00000026;
+    width:200px;
+    margin-top: 10px;
+    background-color: var(--background-color);
+}
+
+
+
+/* ------------------------------------------lowerMenu end------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------Hero Section----------------------------------------------------------------------- */
+
+.heroSection{
+    display: flex;
+    border-bottom: 5px solid var(--dark-main-color);
+    align-items: end;
+}
+
+.heroSectionHeading p{
+    font-family: 'Charm', Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.doctorName{
+    padding-top:0px ;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--dark-main-color);
+}
+
+.certified{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+
+.featuresList ul{
+    padding-left: 0;
+}
+
+.featuresList ul li{
+    font-size: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.featuresList ul li::before {
+    content: '✔'; 
+    margin-right: 10px; /* Spacing between marker and text */
+    color: var(--main-color);
+    font-size: 20px;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+  }
+
+  .heroBox1{
+    margin-top: 50px;
+  }
+
+  .heroBox2 img{
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+
+
+
+/* --------------------------------------------Hero Section-end-------------------------------------------------------------------- */
+
+
+
+/* --------------------------------------------Consult Section-------------------------------------------------------------------- */
+
+
+.outerConsultSection{
+    height: 400px;
+    background-color: white;
+}
+
+.consultSection{
+    padding: 50px 30px;
+    display: flex;
+}
+
+.consultBtn{
+    padding-top: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    flex: 1;
+    padding-right: 150px;
+}
+
+.consultBtn a{
+    font-size: 12px;
+    padding: 15px 45px;
+    background-color: black;
+    color: white;
+    letter-spacing:2px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.consultForm{
+    flex: 4;
+}
+
+.consultForm input{
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+}
+
+.consultForm .consultFormInputs{
+    display: flex;
+    gap: 30px;
+}
+
+.consultForm .consultFormInputs .consultFormInput{
+    width: 100%;
+}
+
+.mobileNumber{
+    padding-top: 50px;
+}
+
+
+/* --------------------------------------------Consult Section-end-------------------------------------------------------------------- */
+
+
+
+
+
+/* --------------------------------------------Popular Section-------------------------------------------------------------------- */
+
+
+.outerPopularSection{
+    background-color: var(--background-color);
+    padding: 120px 30px;
+}
+
+.popularSection{
+width: 100%;
+}
+
+.sectionTitle .service{
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: var(--dark-main-color);
+    font-weight: 600;
+}
+
+.popularProcetures{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.imagesSection{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    gap: 26px;
+}
+.imagesSection img{
+    height: 360px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imagesSection .popularSectionImage{
+overflow: hidden;
+}
+
+.imagesSection .imagesDetails img{
+    transition: 350ms;
+}
+
+.imagesSection .imagesDetails img:hover{
+    transform: scale(1.1);
+    transition: 350ms;
+}
+
+
+
+
+
+/* --------------------------------------------Popular Section-end-------------------------------------------------------------------- */
+
+
+
+/* --------------------------------------------Cosmetic Section-------------------------------------------------------------------- */
+
+
+.cosmeticSurgery{
+    display: flex;
+    height: 700px;
+}
+.cosmeticBox1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cosmeticBox1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.cosmeticBox2{
+    flex: 1;
+    background-color: var(--cosmetic-color);
+    padding: 50px 30px;
+}
+
+.cosmeticPara{
+    width: 95%;
+}
+
+.cosmeticSurgeryListItems{
+    letter-spacing: 2px;
+}
+
+
+
+/* --------------------------------------------Cosmetic Section-end-------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------treatment-Slider----------------------------------------------------------------------- */
+
+.treatmentCarousel, .outerTreatmentContainer{
+    background-color: white;
+}
+
+
+
+.treatmentSliderItem{
+    width: 250px;
+    height: 320px;
+}
+
+.treatmentSliderItem a{
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+}
+
+.treatmentSliderItem a::before{
+    content: "";
+    background-color: var(--dark-main-color);
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    bottom: -20px;
+    left: 80px;
+}
+
+
+
+
+/* ---------------------------------------------treatment-Slider-end-------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------About Us------------------------------------------------------------------------------ */
+
+.aboutUs{
+    padding: 150px 0;
+}
+
+
+.aboutUs .aboutPara1{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.aboutPara2{
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.aboutPara2 span{
+    color: var(--dark-main-color);
+}
+
+.readMore{
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    padding: 12px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--dark-main-color);
+}
+
+
+
+/* -------------------------------------------------About Us-end--------------------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------Before and After Section------------------------------------------------------------ */
+
+.beforeAndAfterContainer{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.beforeAndAfterContainer .para1{
+    font-size: 13px;
+    color: var(--dark-main-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.beforeAndAfterContainer .para2{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 50%;
+    margin: auto;
+}
+
+.beforeAfterImages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.imageContainer{
+    height: 400px;
+    padding-top: 50px;
+}
+
+.beforeAfterBtn{
+    background-color: var(--dark-main-color);
+    color: white;
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+
+
+
+/* ----------------------------------------------------Before and After Section-end--------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------Ultimate Section--------------------------------------------------------- */
+
+
+.ultimateContainer{
+    display: flex;
+    gap: 20px;
+    height: 800px;
+    padding: 0;
+}
+
+.ultimateBox1{
+    flex: 1;
+    background-color: var(--cosmetic-color);
+}
+.ultimateBox2{
+    flex: 1;
+}
+
+/* ----------------------------------------------------Ultimate Section-end--------------------------------------------------------- */
