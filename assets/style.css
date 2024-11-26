@@ -610,7 +610,7 @@ overflow: hidden;
 
 
 .testimonialSection{
-    height: 600px;
+    min-height: 600px;
     padding: 100px 0;
 }
 
@@ -676,7 +676,7 @@ width: 80%;
 }
 
 .slick-slide{
-    margin: 0 12px !important;
+    margin: 0 8px !important;
 }
 
 
@@ -768,9 +768,17 @@ width: 80%;
 
 
 .secondMobileMenu{
-    position: absolute;
+    position: fixed;
     width: 80%;
     height: 450px;
+    background-color: white;
+    top: 110px;
+    display: none;
+}
+.mobileDropdown{
+    position: fixed;
+    width: 80%;
+    height: 490px;
     background-color: white;
     top: 110px;
     display: none;
@@ -778,7 +786,7 @@ width: 80%;
 
 
 .mobileMenuItems{
-    position: absolute;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.279);
     top: 0;
     bottom: 0;
@@ -803,7 +811,7 @@ width: 80%;
 
     
 .sectionHeading{
-    font-size: 30px;
+    font-size: 25px;
 }
 
  
@@ -846,6 +854,10 @@ width: 80%;
 
     .consultSection{
         padding: 30px 16px;
+    }
+
+    .consultForm{
+        width: 100%;
     }
 
     .imagesSection{
@@ -959,5 +971,9 @@ width: 80%;
 
     .footerBox22{
         width: 100%;
+    }
+
+    .footerBox2{
+        gap: 50px;
     }
 }

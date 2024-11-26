@@ -16,6 +16,14 @@ $('.lowerMobileMenu').click(function(){
 })
 
 
+// mobileMenu
+
+
+$('.secondMenuListItem').click(function(){
+  $(this).children('.mobileDropdown').show()
+})
+
+
 
 
 $('.treatmentSlider').slick({
@@ -23,6 +31,7 @@ $('.treatmentSlider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     infinite: true,
+    dots:true,
     responsive: [
       {
         breakpoint: 1024,
@@ -47,7 +56,8 @@ $('.reviewSlider').slick({
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
+    dots:true,
     speed: 500,
     infinite: true,
     responsive: [
