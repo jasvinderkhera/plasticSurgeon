@@ -749,6 +749,29 @@ width: 80%;
 
 
 
+/* -----------------------menu------------------------------------------- */
+
+
+.secondMobileMenu{
+    position: absolute;
+    width: 80%;
+    height: 450px;
+    background-color: white;
+    top: 110px;
+    display: none;
+}
+
+
+.mobileMenuItems{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.279);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
 
 
 
@@ -760,8 +783,37 @@ width: 80%;
 
 
 @media screen and (max-width:768px) {
+   
+
+ 
+
+    .innerMobileMenu{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 70%;
+        text-align: end;
+    }
+
+    .innerMobileMenu ul li{
+        padding-bottom: 20px;
+    }
+    .innerMobileMenu ul li a{
+        font-size: 14px;
+    }
+
     .lowerMobileMenu{
         height: 40px;
+        position: relative;
+    }
+
+   
+    .secondMenuListItem a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
     }
 
 

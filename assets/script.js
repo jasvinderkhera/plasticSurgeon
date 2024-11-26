@@ -1,3 +1,23 @@
+
+
+$('.menuOpen').click(function(){
+  $('.mobileMenuItems').show()
+})
+
+
+
+    $('.closeBtn').click(function(){
+        $('.mobileMenuItems').hide()
+    })
+
+$('.lowerMobileMenu').click(function(){
+
+  $('.secondMobileMenu').toggle()
+})
+
+
+
+
 $('.treatmentSlider').slick({
     infinite: true,
     slidesToShow: 4,
@@ -27,6 +47,8 @@ $('.reviewSlider').slick({
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
+    autoplay: true,
+    speed: 500,
     infinite: true,
     responsive: [
       {
