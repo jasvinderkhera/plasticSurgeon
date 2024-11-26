@@ -47,7 +47,7 @@ $('.reviewSlider').slick({
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     speed: 500,
     infinite: true,
     responsive: [
