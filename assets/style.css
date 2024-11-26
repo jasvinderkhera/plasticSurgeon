@@ -24,13 +24,37 @@ body{
 
 /* --------------------common---------------------------------------- */
 
-.links{
-    text-decoration: none;
-    color: black;
+.main-color{
+    color: var(--main-color);
+}
+
+.main-bg{
+    background-color: var(--main-color);
 }
 
 .dark-main{
     color: var(--dark-main-color);
+}
+
+.dark-bg{
+    background-color: var(--dark-main-color);
+}
+
+.bg-color{
+    background-color: var(--background-color);
+}
+
+
+.icons-bg{
+    background-color: #a47f6f;
+}
+
+.goldenStar{
+    color: #f6bb06;
+}
+
+.blogText{
+   color: #d25239;
 }
 
 
@@ -47,13 +71,25 @@ body{
 
 
 
+/* ---------------------------fixed Whatsapp---------------------- */
+
+.whatsappFixed{
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+}
+
+
+/* ---------------------------fixed Whatsapp-end--------------------- */
+
+
+
+
 
 /* ---------------------------------------------------------------contactDetails/top---------------------------------------------------- */
 
 
 .contactInfo{
-    display: flex;
-    justify-content: space-between;
     padding: 8px 30px;
 }
 .borderBottom{
@@ -61,29 +97,21 @@ body{
 }
 
 .personalDetails{
-    display: flex;
+    
     gap: 50px;
 }
 
 .personalDetails a{
     font-size: 14px;
     padding: 5px 0;
-    display: inline-bloc3;
 }
 .socialMedia{
-    display: flex;
-    justify-content: space-between;
     gap: 6px;
 }
 .socialMedia a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--dark-main-color);
     height: 26px;
     width: 26px;
     padding: 2px;
-    border-radius: 50%;
 }
 
 .socialMedia a img{
@@ -104,7 +132,6 @@ body{
 header{
     position: sticky;
     top: 0;
-    background-color: var(--background-color);
     z-index: 1;
 }
 
@@ -114,14 +141,10 @@ header{
 }
 
 .upperMenu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0px 30px;
 }
 
 .upperMenuItems {
-display: flex;
 gap: 30px;
 }
 
@@ -140,15 +163,6 @@ font-size: 16px;
 /* ------------------------------------------lowerMenu ------------------------------------------------------------------------- */
 
 
-.lowerMenuOutercontainer-xxl{
-    background-color: var(--main-color);
-}
-
-.lowerMenu{
-    
-    display: flex;
-    justify-content: start;
-}
 
 .lowerMenu .lowerMenuItems a{
     font-weight: 600;
@@ -171,7 +185,7 @@ display: block;
     position: absolute;
     box-shadow: 0px 3px 1px 1px #00000026;
     width:200px;
-    margin-top: 10px;
+    padding-top: 10px;
     background-color: var(--background-color);
 }
 
@@ -556,9 +570,183 @@ overflow: hidden;
 .ultimateBox1{
     flex: 1;
     background-color: var(--cosmetic-color);
+    padding: 100px 50px;
 }
+
+.ultimateBox1 .ultimatePara1{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: bold;  
+}
+
+.ultimateBox1 .ultimatePara2{
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: bold;  
+}
+
+.ultimateBox1 .ultimatePara3{
+    line-height: 1.8;
+}
+
+.achievementIcon{
+    height: 40px;
+    width: 40px;
+}
+
 .ultimateBox2{
     flex: 1;
 }
 
 /* ----------------------------------------------------Ultimate Section-end--------------------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------------Testimonial Section--------------------------------------------------------- */
+
+
+.testimonialSection{
+    height: 600px;
+    padding: 100px 0;
+}
+
+.testimonialSection .para1{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.reviews .reviewBox1{
+width: 20%;
+}
+.reviewBox1 .para4 img{
+    height: 35px;
+    width: 110px;
+    margin: auto;
+}
+
+.reviews .reviewBox2{
+width: 80%;
+}
+
+
+.reviewSliderItem{
+    height: 230px;
+    width: 290px;
+    background-color: rgba(128, 128, 128, 0.09);
+}
+
+.profileDetails .profileImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: green;
+}
+.profileDetails .googleLogo{
+    height: 25px;
+    width: 25px;
+}
+
+.profileDetail .name .username{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.profileDetail .name .time{
+    font-size: 12px;
+    color: gray;
+}
+
+.reviewDetail{
+    font-size: 14px;
+}
+
+.reviewSliderItem:hover{
+    transform: translateY(-10px);
+    transition: 350ms;
+}
+
+
+
+
+
+/* ----------------------------------------------------Testimonial Section-end--------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------Blog Section--------------------------------------------------------- */
+
+.outerBlogSection{
+    background: url('../assets/images/blogBg.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+.blogOverlay{
+    background-color: rgba(128, 128, 128, 0.445);
+}
+
+.blogSection{
+    padding: 100px 0;
+}
+
+.blogGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+    gap:24px ;
+}
+
+.blogGridItem p{
+    line-height: 1.2;
+}
+
+.blogReadMore{
+    font-size: 13px;
+}
+
+
+
+/* ----------------------------------------------------Blog Section-end--------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------Footer Section-end--------------------------------------------------------- */
+
+.footer{
+    background-color: #2c2c2c;
+    padding-top: 100px;
+}
+
+.footerBox1 .footerLogo{
+    height: 105px;
+    width: 150px;
+}
+.footerBox1 p{
+    width: 40%;
+}
+
+.FooterSocialMedia a{
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+}
+
+.FooterSocialMedia a img{
+    height: 20px;
+    width: 20px;
+}
+
+.footerBox2{
+    gap: 50px;
+}
+
+.footerBox22{
+    width: 350px;
+}
+
+
+
+/* ----------------------------------------------------Footer Section-end--------------------------------------------------------- */
