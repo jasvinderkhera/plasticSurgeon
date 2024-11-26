@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <div class="contactInfo d-flex justify-content-between  container-xxl">
+    <div class="contactInfo d-none d-md-flex justify-content-between  container-xxl">
       <div class="personalDetails d-flex">
         <a href="tel:+918100600400" class="nav-link d-inline-block">+91 81006 00400</a>
         <a href="mailto:drpreetiyadav.com@gmail.com" class="nav-link d-inline-block">
@@ -52,21 +52,24 @@
           <div class="logo">
             <img src="./assets/images/logo.png" alt="" />
           </div>
-          <div class="upperMenuItems d-flex">
+          <div class="upperMenuItems d-none d-md-flex">
             <a href="" class="nav-link">ABOUT DR. PREETI YADAV</a>
             <a href="" class="nav-link">BEFORE AND AFTER</a>
             <a href="" class="nav-link">REVIEWS</a>
             <a href="" class="nav-link">BLOGS</a>
             <a href="" class="nav-link">FAQ</a>
           </div>
+          <div class="mobileMenu d-block d-md-none">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
 
         <div class="lowerMenuOutercontainer-xxl main-bg">
-          <div class="lowerMenu d-flex justify-content-start container-xxl">
+          <div class="lowerMenu d-none d-md-flex justify-content-start container-xxl">
             <div class="lowerMenuItems">
               <a href="" class="nav-link">FACE & NECK</a>
               <div class="lowerMenuDropdown">
-                <div class="dropdownItem">
+                <div class="dropdownItem ">
                   <a href="" class="nav-link">FACELIFT</a>
                 </div>
                 <div class="dropdownItem">
@@ -233,14 +236,17 @@
               </div>
             </div>
           </div>
+          <div class="lowerMobileMenu d-flex align-items-center d-md-none main-bg px-4">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
       </div>
     </header>
 
         <!-- -------------------------------------------------Hero Section----------------------------------------------------------------- -->
 
-    <div class="heroSection container-xxl">
-      <div class="heroBox1">
+    <div class="heroSection d-flex flex-md-row flex-column align-items-end container-xxl">
+      <div class="heroBox1 px-md-0 px-4">
         <div class="heroSectionHeading">
           <p>ENHANCING CONFIDENCE, REDEFINING BEAUTY</p>
         </div>
@@ -272,14 +278,14 @@
         <!-- -------------------------------------------------consult----------------------------------------------------------------- -->
 
     <div class="outerConsultSection">
-      <div class="consultSection container-xxl">
-        <div class="consultBtn">
+      <div class="consultSection d-flex flex-column flex-md-row container-xxl">
+        <div class="consultBtn d-none d-md-block">
           <p>BOOK YOUR SESSION</p>
           <a href="" class="nav-link">APPOINTMENT</a>
         </div>
         <div class="consultForm">
           <form action="">
-            <div class="consultFormInputs">
+            <div class="consultFormInputs d-flex flex-column flex-md-row">
               <div class="consultFormInput">
                 <input type="text" placeholder="NAME" />
               </div>
@@ -291,6 +297,15 @@
               <input type="tel" placeholder="MOBILE NUMBER" />
             </div>
           </form>
+
+          <div class="booking-contact-submit mt-5">
+            <div>
+              <p class="fs-4 fw-bold text-uppercase text-center">Book Your Session</p>
+            </div>
+            <div class="text-center">
+              <a href="" class="nav-link d-inline-block px-5 py-3 bg-black text-white fw-bold">APPOINTMENT</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -312,19 +327,19 @@
             </div>
             <p class="text-center fw-bold">BODY CONTOURING</p>
           </div>
-          <div class="imagesDetails">
+          <div class="imagesDetails d-none d-md-block">
             <div class="popularSectionImage">
             <img src="./assets/images/popularSection/Facial-plastic-surgery.jpg" alt="" class="img-fluid">
             </div>
             <p class="text-center fw-bold">FACE & NECK</p>
             </div>
-            <div class="imagesDetails">
+            <div class="imagesDetails d-none d-md-block">
               <div class="popularSectionImage">
             <img src="./assets/images/popularSection/breast.png" alt="" class="img-fluid">
             </div>
             <p class="text-center fw-bold">BREAST</p>
             </div>
-            <div class="imagesDetails">
+            <div class="imagesDetails d-none d-md-block">
               <div class="popularSectionImage">
             <img src="./assets/images/popularSection/tummy.png" alt="" class="img-fluid">
             </div>
@@ -339,13 +354,13 @@
      <!-- -------------------------------------------------Cosmetic Surgery----------------------------------------------------------------->
 
     <div class="cosmeticSurgery">
-        <div class="cosmeticBox1">
+        <div class="cosmeticBox1 d-none d-md-block">
           <img src="./assets/images/popularSection/cosmetic.webp" alt="">
         </div>
         <div class="cosmeticBox2">
-            <div class="cosmeticDetails text-white ps-3">
+            <div class="cosmeticDetails text-white ps-md-3 ">
                 <p class=" fs-6 text-white fw-bold" >OUR KEY OFFERINGS</p>
-                <h3 class="fs-1 fw-bold">ADVANCED COSMETIC SURGERIES</h3>
+                <h3 class="fs-md-1 fs-2 fw-bold">ADVANCED COSMETIC SURGERIES</h3>
                 <p class="cosmeticPara">Transforming beauty with our expert plastic surgeon in Gurgaon and cutting-edge cosmetic treatments tailored to you. With a blend of precision and artistry, we help you achieve natural, confident results.</p>
 
                 <ul class="fs-5 fw-bold list-unstyled pt-5">
@@ -451,7 +466,7 @@
         <p class="fs-4 aboutPara1">As a long-time Cosmetic Surgeon in Gurgaon, I believe it’s not just about changing how you look—it’s about transforming how you feel, both inside and out.
         </p>
         <p class="aboutPara2">
-          dr. preeti yadav - <span>plastic surgeon in gurgaon</span>
+          dr. preeti yadav - <span class="d-block d-md-inline">plastic surgeon in gurgaon</span>
         </p>
 
         <a href="" class="nav-link readMore">Read more about us</a>
@@ -486,26 +501,26 @@
 
         <!-- -------------------------------------------------Ultimate----------------------------------------------------------------- -->
 
-    <div class="ultimateContainer container-fluid">
+    <div class="ultimateContainer d-flex flex-column flex-md-row container-fluid">
       <div class="ultimateBox1">
         <p class="ultimatePara1 text-white mb-2">Konarc Aesthetics</p>
         <p class="ultimatePara2 text-white">Ultimate spot for all cosmetic & beauty needs</p>
         <p class="ultimatePara3 text-white">To better serve the community, Dr. Preeti Yadav started Konarc Aesthetics in Gurgaon. This leading clinic offers top-notch plastic and cosmetic surgeries like liposuction and tummy tucks. From the first consultation to the final treatment, we ensure a smooth, caring, and hassle-free experience for all our patients.</p>
         <img src="./assets/images/animationLine.png" alt="" class="img-fluid">
         <div class="achievements">
-          <div class="achievementList d-flex gap-5 align-items-center my-5">
+          <div class="achievementList d-flex flex-column flex-md-row gap-5 align-items-start align-items-md-center my-5">
            <div class="achievementIcon rounded-circle d-flex justify-content-center align-items-center icons-bg border-white border">
             <i class="fa-solid fa-award text-white fs-5"></i>
            </div>
             <span class="achievementDetail text-white fs-4 text-uppercase">1000+ Successful Cosmetic Surgeries</span>
           </div>
-          <div class="achievementList d-flex gap-5 align-items-center my-5">
+          <div class="achievementList d-flex flex-column flex-md-row gap-5 align-items-start align-items-md-center my-5">
             <div class="achievementIcon rounded-circle d-flex justify-content-center align-items-center icons-bg border-white border">
               <i class="fa-solid fa-hand-holding-medical text-white fs-5"></i>
             </div>
             <span class="achievementDetail text-white fs-4 text-uppercase">Over 6,000 Consultations</span>
           </div>
-          <div class="achievementList d-flex gap-5 align-items-center my-5">
+          <div class="achievementList d-flex flex-column flex-md-row gap-5 align-items-start align-items-md-center my-5">
         <div class="achievementIcon rounded-circle d-flex justify-content-center align-items-center icons-bg border-white border">
           <i class="fa-solid fa-heart text-white fs-5"></i>
         </div>
@@ -529,7 +544,7 @@
       <div class="para1 text-uppercase dark-main">testimonials</div>
       <div class="para2 text-uppercase fs-2 fw-bold">what people says</div>
 
-      <div class="reviews overflow-hidden d-flex mt-5">
+      <div class="reviews overflow-hidden d-flex flex-column flex-md-row mt-5 gap-3 gap-md-0">
         <div class="reviewBox1 d-flex justify-content-center flex-column">
           <div class="para1 text-uppercase fs-4">excellent</div>
           <div class="para2 text-uppercase fs-4 goldenStar">
@@ -886,7 +901,7 @@
         <!-- -------------------------------------------------Footer----------------------------------------------------------------- -->
 
         <div class="footer container-fluid">
-          <div class=" d-flex justify-content-between container-xxl">
+          <div class=" d-flex flex-column flex-md-row justify-content-between gap-4 container-xxl">
             <div class="footerBox1">
               <img src="./assets/images/logo.png" alt="" class="img-fluid footerLogo">
               <p class="text-white">Embrace the journey to becoming your best self and cherish every step with Dr. Preeti Yadav, Best Plastic Sugreon in Gurgaon.
@@ -910,7 +925,7 @@
                 </a>
               </div>
             </div>
-            <div class="footerBox2 d-flex gap-5">
+            <div class="footerBox2 d-flex flex-column flex-md-row gap-5">
               <div class="footerBox21">
                 <h5 class="text-white pb-3">Quick Links</h5>
                 <ul class="list-unstyled">
