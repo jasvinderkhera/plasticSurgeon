@@ -192,6 +192,12 @@ display: block;
     line-height: 1.2;
 }
 
+.lowerMenuItems .lowerMenuDropdown a:hover{
+    color: var(--main-color);
+}
+
+
+
 
 .lowerMenuDropdown{
     display: none;
