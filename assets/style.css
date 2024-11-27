@@ -143,8 +143,8 @@ body{
 
 
 header{
-    position: sticky !important;
-    top: 0 !important;
+    position: sticky;
+    top: 0 ;
     z-index: 1;
 }
 
@@ -762,7 +762,7 @@ width: 80%;
 .secondMobileMenu{
     position: fixed;
     width: 80%;
-    height: 450px;
+    height: 420px;
     background-color: white;
     top: 110px;
     display: none;
@@ -770,8 +770,9 @@ width: 80%;
 .mobileDropdown{
     position: fixed;
     width: 80%;
-    height: 490px;
+    height: 420px;
     background-color: white;
+    overflow-y: scroll;
     top: 110px;
     display: none;
 }
@@ -835,7 +836,7 @@ width: 80%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px;
+        padding: 13px;
     }
 
 
