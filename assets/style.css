@@ -531,7 +531,7 @@ overflow: hidden;
 }
 
 .imageContainer{
-    height: 400px;
+    /* height: 400px; */
     padding-top: 50px;
 }
 
@@ -746,16 +746,8 @@ width: 80%;
     width: 20px;
 }
 
-.footerBox2{
-    gap: 100px;
-}
-
-.footerBox21{
-    width: 200px;
-}
-
-.footerBox22{
-    width: 250px;
+.footerBox2 .footerBox21, .footerBox2 .footerBox22{
+    flex: 1;
 }
 
 
@@ -914,7 +906,7 @@ width: 80%;
     }
 
     .imageContainer , .BtnContainer{
-        height: 500px;
+        /* height: 500px; */
         padding-top: 20px;
     }
     .BtnContainer{
@@ -923,7 +915,7 @@ width: 80%;
     }
 
     .imageContainer img , .BtnContainer img{
-        height: 500px;
+        /* height: 500px; */
         padding-top: 20px;
         object-fit: fill;
     }
@@ -969,8 +961,8 @@ width: 80%;
         width: 100%;
     }
 
-    .footerBox22{
-        width: 100%;
+    .footerBox21{
+        width: 48%;
     }
 
     .footerBox2{
