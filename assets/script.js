@@ -23,6 +23,10 @@ $('.secondMenuListItem').click(function(){
   $(this).children('.mobileDropdown').show()
 })
 
+$('.mobileClose').click(function(){
+  $(this).parent('.mobileDropdown').hide()
+})
+
 
 
 
