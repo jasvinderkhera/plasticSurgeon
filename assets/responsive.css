@@ -1,0 +1,172 @@
+/* ------------------------------------------------For Mobile----------------------------------------------------------------------- */
+
+@media screen and (max-width:768px) {
+   
+    
+    .sectionHeading{
+        font-size: 25px;
+    }
+    
+     
+    
+        .innerMobileMenu{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            width: 70%;
+            text-align: end;
+        }
+    
+        .innerMobileMenu ul li{
+            padding-bottom: 20px;
+        }
+        .innerMobileMenu ul li a{
+            font-size: 14px;
+        }
+    
+        .lowerMobileMenu{
+            height: 40px;
+            position: relative;
+            z-index: 4;
+        }
+    
+       
+        .secondMenuListItem a{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 13px;
+        }
+    
+    
+        .outerConsultSection{
+            min-height: 600px;
+            background-color: white;
+        }
+    
+        .consultSection{
+            padding: 30px 16px;
+        }
+    
+        .consultForm{
+            width: 100%;
+        }
+    
+        .imagesSection{
+            display: grid;
+            grid-template-columns:  1fr;
+            gap: 26px;
+        }
+        .imagesSection img{
+            height: 400px;
+            width: 100%;
+            object-fit: fill;
+        }
+    
+        .popularProcetures {
+            font-size: 24px;
+        }
+    
+        .outerPopularSection{
+            padding: 50px 20px;
+        }
+    
+        .popularSection{
+            padding: 0;
+        }
+    
+        .treatmentSliderItem{
+            width: 100%;
+            height: 320px;
+        }
+    
+        .treatmentSliderItem img{
+            margin: auto;
+        }
+    
+        .treatmentSliderItem a::before {
+            content: "";
+            background-color: var(--dark-main-color);
+            height: 2px;
+            width: 80px;
+            position: absolute;
+            bottom: -20px;
+            left: 35%;
+        }
+    
+        .beforeAndAfterContainer .para2{
+            font-size: 30px;
+            width: 100%;
+        }
+    
+        .beforeAfterImages{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+    
+        .imageContainer , .BtnContainer{
+            /* height: 500px; */
+            padding-top: 20px;
+        }
+        .BtnContainer{
+            height: 600px;
+            padding-top: 20px;
+        }
+    
+        .imageContainer img , .BtnContainer img{
+            /* height: 500px; */
+            padding-top: 20px;
+            object-fit: fill;
+        }
+    
+        .blogGrid{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap:24px ;
+        }
+    
+        .blogSection {
+            padding: 50px 0;
+        }
+    
+        .ultimateBox1{
+            padding: 50px 20px;
+        }
+    
+        .ultimateBox1 .ultimatePara2 {
+            font-size: 30px;
+        }
+    
+        .ultimateBox2 iframe{
+            width: 100%;
+            height: 300px;
+            padding: 20px;
+        }
+    
+        .reviews .reviewBox1 {
+            width: 100%;
+        }
+        .reviews .reviewBox2 {
+            width: 100%;
+            padding: 20px;
+        }
+        .reviewSliderItem {
+            height: 230px;
+            width: 100%;
+            background-color: rgba(128, 128, 128, 0.09);
+        }
+    
+        .footerBox1 p {
+            width: 100%;
+        }
+    
+        .footerBox21{
+            width: 48%;
+        }
+    
+        .footerBox2{
+            gap: 50px;
+        }
+    }
