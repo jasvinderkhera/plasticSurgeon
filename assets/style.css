@@ -731,9 +731,15 @@ width: 80%;
     height: 105px;
     width: 150px;
 }
-.footerBox1 p{
-    width: 40%;
+
+.footerBox1{
+    flex:3
 }
+
+.footerBox2{
+    flex:5
+}
+
 
 .FooterSocialMedia a{
     height: 40px;
