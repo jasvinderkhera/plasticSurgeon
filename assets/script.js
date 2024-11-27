@@ -32,7 +32,7 @@ $('.mobileClose').click(function(){
 
 $('.treatmentSlider').slick({
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     infinite: true,
     dots:true,
@@ -40,7 +40,7 @@ $('.treatmentSlider').slick({
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 5,
           slidesToScroll: 1,
           infinite: true,
           dots: true
