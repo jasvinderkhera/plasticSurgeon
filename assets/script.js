@@ -24,7 +24,7 @@ $('.secondMenuListItem').click(function(){
 })
 
 $('.mobileClose').click(function(){
-  $(this).parent('.mobileDropdown').hide()
+  $(this).parent().css("display","none")
 })
 
 
