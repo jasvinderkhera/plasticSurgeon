@@ -728,7 +728,7 @@ width: 80%;
 /* ----------------------------------------------------Footer Section-end--------------------------------------------------------- */
 
 .footer{
-    background-color: #616161;
+    background-color: #e0e0e0;
     padding-top: 80px;
     padding-bottom: 20px;
 }
@@ -751,6 +751,8 @@ width: 80%;
     height: 40px;
     width: 40px;
     padding: 2px;
+    font-weight: 500;
+    background-color: var(--main-color);
 }
 
 .FooterSocialMedia a img{
