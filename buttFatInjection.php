@@ -67,7 +67,7 @@ include('header.php');
         <h2 class="h1 fw-bold text-uppercase">How does the Buttock injection Work?</h2>
         <p class="lh">The butt fat injection procedure involves a precise combination of liposuction, fat purification, and careful fat injection to sculpt and enhance your buttocks naturally, ensuring a harmonious and balanced figure. Here’s how it works:-</p>
         <ul class="lh list-unstyled mb-4">
-            <li class="mb-2"><strong>Consultation and Planning: </strong>TDuring your initial consultation, a qualified surgeon will assess your goals, discuss your desired outcome, and determine the best areas for fat harvesting.</li>
+            <li class="mb-2"><strong>Consultation and Planning: </strong>During your initial consultation, a qualified surgeon will assess your goals, discuss your desired outcome, and determine the best areas for fat harvesting.</li>
             <li class="mb-2"><strong>Liposuction: </strong>The procedure begins with liposuction, where excess fat is gently removed from the predetermined donor areas using a cannula. This process is performed under anesthesia to ensure your comfort.</li>
             <li class="mb-2"><strong>Purification: </strong>The extracted fat is then purified to remove any impurities, ensuring that only the healthiest fat cells are used for the injections.</li>
             <li class="mb-2"><strong>Fat Injection: </strong>The purified fat is carefully injected into specific areas of your buttocks to achieve the desired shape and volume. The surgeon will meticulously sculpt the area to create a natural, proportional look.</li>
