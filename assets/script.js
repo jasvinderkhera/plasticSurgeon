@@ -63,6 +63,7 @@ $('.reviewSlider').slick({
     slidesToScroll: 1,
     autoplay: true,
     dots:true,
+    arrows:false,
     speed: 500,
     infinite: true,
     responsive: [

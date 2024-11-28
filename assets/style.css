@@ -73,6 +73,14 @@ body{
 }
 
 
+.ls2{
+    letter-spacing: 2px;
+}
+
+.mainBorderBottom{
+    border-bottom: 5px solid var(--dark-main-color);
+}
+
 
 
 
@@ -899,4 +907,28 @@ width: 80%;
 
 /* -------------------------------------------------------------Facelift end----------------------------------------------------------- */
 
+
+
+.aboutBg{
+    background: url('./images/aboutBG.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.aboutOverlay{
+    position: absolute;
+    bottom: 20px;
+}
+
+.experienceContainer .numbers{
+    flex:33%
+}
+
+.aboutTestimonial{
+    background: url('./images/blogBg.jpg');
+}
+
+.aboutTestimonial .reviewSliderItem{
+    background-color: white;
+}
 
