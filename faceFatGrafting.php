@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "No.1 Facelift Surgery in Gurgaon | Best face lifting treatment";
+$pageTitle = "Face Fat Grafting – Restore Volume and Enhance Beauty";
 $pageDescription = "";
 $pageKeyword = "";
 include('header.php');
@@ -168,7 +168,7 @@ include('header.php');
         Our skilled surgeons will identify a suitable donor site, typically in areas like the abdomen or thighs, where excess fat can be safely harvested. Using a minimally invasive liposuction technique, we will gently extract the fat through small incisions using a thin cannula. This ensures minimal scarring and a quicker recovery. Following the procedure, you will spend a short recovery period at our facility to ensure your safety and comfort. 
         </p>
         <p class="lh text-center">
-        If you’re ready to explore the benefits of face fat grafting, contact us today to schedule your consultation and take the first step toward a more youthful, revitalized appearance!
+        If you’re ready to explore the benefits of face fat grafting, <strong>contact us today</strong> to schedule your consultation and take the first step toward a more youthful, revitalized appearance!
         </p>
 
 
