@@ -116,26 +116,27 @@ include('header.php');
 <section class="x-section">
         <div class="container experienceContainer d-flex flex-wrap">
                 <div class="numbers d-flex justify-content-center flex-column align-items-center">
-                <div class="display-1 fw-bold dark-main">
-                        15+
+                <div class="display-1 fw-bold dark-main ">
+                        <span class="years">15</span>+
                 </div>
                 <span class="text-uppercase text-dark fw-bold">years</span>
                 </div>
                 <div class="numbers d-flex justify-content-center flex-column align-items-center">
-                <div class="display-1 fw-bold dark-main">
-                        5000+
+                <div class="display-1 fw-bold dark-main ">
+                        <span class="patients">5000</span>+
                 </div>
                 <span class="text-uppercase text-dark fw-bold">patients</span>
                 </div>
                 <div class="numbers d-flex justify-content-center flex-column align-items-center">
                 <div class="display-1 fw-bold dark-main">
-                        36+
+                        <span class="surgeries">36</span>+
                 </div>
                 <span class="text-uppercase text-dark fw-bold">surgeries</span>
                 </div>
                 <div class="numbers d-flex justify-content-center flex-column align-items-center">
-                <div class="display-1 fw-bold dark-main">
-                        23+
+                <div class="display-1 fw-bold dark-main ">
+                     <span class="staff"> 23</span>
+                       +
                 </div>
                 <span class="text-uppercase text-dark fw-bold">staff</span>
                 </div>

@@ -86,3 +86,67 @@ $('.reviewSlider').slick({
       }
   ]
   });
+
+
+  // counter
+
+  function counter1() {
+    let i = 0
+    const interval = setInterval(function () {
+        i += 500
+        $(".patients").text(i)
+        if (i >= 5000) {
+            clearInterval(interval)
+        }
+    }, 50)
+}
+  function counter2() {
+    let i = 0
+    const interval = setInterval(function () {
+        i += 1
+        $(".years").text(i)
+        if (i >= 15) {
+            clearInterval(interval)
+        }
+    }, 50)
+}
+  function counter2() {
+    let i = 0
+    const interval = setInterval(function () {
+        i += 1
+        $(".years").text(i)
+        if (i >= 15) {
+            clearInterval(interval)
+        }
+    }, 50)
+}
+  function counter3() {
+    let i = 0
+    const interval = setInterval(function () {
+        i += 1
+        $(".surgeries").text(i)
+        if (i >= 36) {
+            clearInterval(interval)
+        }
+    }, 50)
+}
+  function counter4() {
+    let i = 0
+    const interval = setInterval(function () {
+        i += 1
+        $(".staff").text(i)
+        if (i >= 23) {
+            clearInterval(interval)
+        }
+    }, 50)
+}
+
+$(document).scroll(function(){
+  const scrollvalue  = window.scrollY
+  if(scrollvalue>75){
+      counter1()
+      counter2()
+      counter3()
+      counter4()
+  }
+})

@@ -59,6 +59,10 @@ body{
    color: #d25239;
 }
 
+.formBg{
+    background-color: #fffdfb;
+}
+
 
 .topPadding{
     padding-top: 60px;
@@ -79,6 +83,23 @@ body{
 
 .mainBorderBottom{
     border-bottom: 5px solid var(--dark-main-color);
+}
+
+.aboutInput{
+    height: 65px;
+    font-size: 16px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+.aboutFormBtn{
+display: block;
+text-align: center;
+background-color: #665b5b;
+padding: 12px 0;
+color: white;
 }
 
 
@@ -820,6 +841,10 @@ width: 80%;
     background-image: url('images/surgeon-in-india-Banner.png');
     background-size: cover;
     position: relative;
+    min-height: 250px;
+}
+
+.sectionWithoutBg{
     min-height: 250px;
 }
 

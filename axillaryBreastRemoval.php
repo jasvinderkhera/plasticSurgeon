@@ -73,7 +73,8 @@ include('header.php');
         </ul>
     </div>
  </section>
-<!-- Benefits of Axillary Breast Removal  -->
+
+ <!-- Benefits of Axillary Breast Removal  -->
 <section class="x-section pt-0">
     <div class="container">
         <h2 class="h1 fw-bold text-uppercase">Benefits of Axillary Breast Removal </h2>
