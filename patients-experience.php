@@ -8,8 +8,8 @@ include('header.php');
 <section class="section-heading">
     <div class="overlay">
         <div class="container-xxl">
-            <h1>About Dr. Preeti Yadav</h1>
-            <span class="text-warning">About Dr. Preeti Yadav</span>
+            <h1>Reviews</h1>
+            <span class="text-warning">Reviews</span>
         </div>
     </div>
 </section>
