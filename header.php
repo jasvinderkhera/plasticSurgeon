@@ -327,7 +327,7 @@
 
         <div class="lowerMenuOutercontainer-xxl main-bg">
           <div class="lowerMenu d-none d-md-flex justify-content-center container-xxl">
-            <div class="lowerMenuItems">
+            <div class="lowerMenuItems mainMenu">
               <a href="" class="nav-link">FACE & NECK</a>
               <div class="lowerMenuDropdown">
                 <div class="dropdownItem ">
@@ -356,7 +356,7 @@
                 </div>
               </div>
             </div>
-            <div class="lowerMenuItems">
+            <div class="lowerMenuItems mainMenu">
               <a href="" class="nav-link">BREAST</a>
               <div class="lowerMenuDropdown">
                 <div class="dropdownItem">
@@ -373,7 +373,7 @@
                 </div>
               </div>
             </div>
-            <div class="lowerMenuItems">
+            <div class="lowerMenuItems mainMenu">
               <a href="" class="nav-link">BODY CONTOURING</a>
               <div class="lowerMenuDropdown">
                 <div class="dropdownItem">
@@ -395,7 +395,7 @@
                 </div>
               </div>
             </div>
-            <div class="lowerMenuItems">
+            <div class="lowerMenuItems mainMenu">
               <a href="" class="nav-link">TUMMY</a>
               <div class="lowerMenuDropdown">
                 <div class="dropdownItem">
@@ -411,7 +411,7 @@
                 </div>
               </div>
             </div>
-            <div class="lowerMenuItems">
+            <div class="lowerMenuItems mainMenu">
               <a href="" class="nav-link">MALE</a>
               <div class="lowerMenuDropdown">
                 <div class="dropdownItem">
@@ -430,7 +430,7 @@
                 </div>
               </div>
             </div>
-            <div class="lowerMenuItems">
+            <div class="lowerMenuItems mainMenu">
               <a href="" class="nav-link">FEMALE</a>
               <div class="lowerMenuDropdown">
                 <div class="dropdownItem">
@@ -459,7 +459,7 @@
                 </div>
               </div>
             </div>
-            <div class="lowerMenuItems">
+            <div class="lowerMenuItems mainMenu">
               <a href="" class="nav-link">GENITAL REJUVENATION</a>
               <div class="lowerMenuDropdown">
                 <div class="dropdownItem">
@@ -473,7 +473,7 @@
                 </div>
               </div>
             </div>
-            <div class="lowerMenuItems">
+            <div class="lowerMenuItems mainMenu">
               <a href="" class="nav-link">OTHER</a>
               <div class="lowerMenuDropdown">
                 <div class="dropdownItem">

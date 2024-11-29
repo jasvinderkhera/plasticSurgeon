@@ -102,6 +102,10 @@ padding: 12px 0;
 color: white;
 }
 
+.mainMenu:hover>a{
+    color: white;
+}
+
 
 
 
