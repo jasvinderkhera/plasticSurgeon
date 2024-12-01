@@ -15,12 +15,12 @@ include('header.php');
 </section>
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
                 <div class="">
                     <h2 class=" fw-bold text-uppercase">6 Pack Abs / Hi-Definition Liposuction</h2>
                     <p class="lh">Achieving a defined six-pack can be challenging, even with intense workouts and strict diets. For many, stubborn fat around the abdomen makes it difficult to reveal those desired muscles. That’s where <strong>6-Pack Abs Surgery</strong> comes in—a cutting-edge procedure designed to target and remove excess fat, helping you attain that sculpted, athletic look.</p>
-                    <p class=" mt-5"><a href="" class="btn-default">SEE RESULTS</a></p>
+                    <p class=" mt-5 text-center text-md-start"><a href="" class="btn-default">SEE RESULTS</a></p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -31,39 +31,17 @@ include('header.php');
     </div>
 </section>
 
-<!-- slot-Banner -->
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 
 
 <!-- What is hd liposuction -->
 
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6 d-flex align-items-center">
                 <div class="">
                     <h2 class=" fw-bold text-uppercase">What is Hi-Definition Liposuction?</h2>
@@ -84,7 +62,7 @@ include('header.php');
                 <div class="adv shadow-lg">
                     <h2 class="h1 fw-bold text-uppercase mb-2">Who is a Good Candidate?</h2>
                     <p class="lh">Hi-Definition Liposuction procedure is ideal for individuals who:</p>
-                    <ul class="lh ps-4">
+                    <ul class="lh ps-2 ps-md-4">
                         <li class="mb-2">Have a relatively low body fat percentage but struggle with stubborn fat pockets around the abdomen.</li>
                         <li class="mb-2">Are physically active and maintain a healthy lifestyle.</li>
                         <li class="mb-2">Want to enhance the visibility of their abs without undergoing more invasive surgery.</li>
@@ -165,10 +143,10 @@ include('header.php');
 <!-- why? -->
  <section class="x-section pt-0">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-8">
                 <h2 class="text-uppercase fw-bold">Why Choose Hi-Definition Liposuction?</h2>
-                <ul class="lh">
+                <ul class="lh ps-2 ps-md-4">
                     <li class="mb-2"><strong>Precision Sculpting:</strong> This procedure offers highly targeted fat removal, specifically designed to enhance your abdominal muscles.</li>
                     <li class="mb-2"><strong>Quick Recovery:</strong> As a minimally invasive procedure, recovery time is shorter compared to more invasive surgeries.</li>
                     <li class="mb-2"><strong>Natural-Looking Results:</strong> By following the natural contours of your body, 6-Pack Abs Liposuction delivers results that look natural and refined.</li>

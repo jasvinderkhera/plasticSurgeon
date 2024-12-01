@@ -15,7 +15,7 @@ include('header.php');
 </section>
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
                 <div class="">
                     <h2 class=" fw-bold text-uppercase">Tummy Tuck Surgery : All You Need to Know</h2>
@@ -35,32 +35,10 @@ include('header.php');
     </div>
 </section>
 
-<!-- slot-Banner -->
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 
 
 <!-- Types of Tummy Tuck Procedures -->
@@ -68,7 +46,7 @@ include('header.php');
 <section class="x-section">
     <div class="container">
         <h2 class=" text-uppercase fw-bold">Types of Tummy Tuck Procedures</h2>
-        <ul class="lh ps-4">
+        <ul class="lh ps-2 ps-md-4">
             <li class="mb-3"><strong>Full Tummy Tuck: </strong>LInvolves a horizontal incision between the hipbones and another around the navel to remove skin and fat and tighten muscles.</li>
             <li class="mb-3"><strong>Mini Tummy Tuck: </strong>Targets the area below the navel with a smaller incision, ideal for those with less excess skin and fat.</li>
             <li class="mb-3"><strong>Extended Tummy Tuck: </strong>Includes a full tummy tuck and extends to the flanks or love handles, beneficial for those with significant excess skin.</li>
@@ -81,13 +59,13 @@ include('header.php');
 <!-- How Does the Tummy Tuck Surgery Work? -->
 <section class="x-section pt-0">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
                 <div >
                     <h2 class=" fw-bold text-uppercase">How Does the Tummy Tuck Surgery Work?</h2>
                     
                     
-                    <ul class="lh ps-3">
+                    <ul class="lh ps-2 ps-md-3">
                         <li class="pb-2"><strong>Anesthesia:</strong> The loose skin surgery begins with the administration of anesthesia. General anesthesia is typically used to ensure the patient is comfortable and pain-free during the procedure.</li>
                         <li class="pb-2"><strong>Incisions:</strong> The surgeon makes incisions to remove excess skin and fat and to tighten abdominal muscles. The length and shape of the incision depend on the amount of excess skin to be removed.</li>
                         <li class="pb-2"><strong>Reshaping and Suturing:</strong> The abdominal muscles are pulled together and stitched in place. The skin is then stretched down, and excess skin is trimmed.</li>
@@ -111,9 +89,9 @@ include('header.php');
 <section class="x-section pt-0">
     <div class="container">
                 <div class="adv shadow-lg">
-                    <h2 class=" fw-bold text-center text-uppercase mb-2">Recovery Post Tummy Tuck Surgery</h2>
+                    <h2 class=" fw-bold text-md-center text-uppercase mb-2">Recovery Post Tummy Tuck Surgery</h2>
                     <p class="lh">After the procedure, the patient is taken to a recovery area for monitoring. Pain, swelling, and discomfort are managed with medication.</p>
-                   <ul class="lh">
+                   <ul class="lh ps-2 ps-md-4">
                     <li class="mb-2"><strong>Initial Healing: </strong>Takes a few weeks, with swelling and discomfort managed by medication.</li>
                     <li class="mb-2"><strong>Physical Activity: </strong>Patients are advised to avoid strenuous activity and heavy lifting for several weeks.</li>
                     <li class="mb-2"><strong>Follow-Up: </strong>Regular follow-up visits to monitor healing and address any concerns.</li>
@@ -130,7 +108,7 @@ include('header.php');
 <!-- Images -->
 <section class="x-section pt-0">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-4"><img src="./assets/images/tummyTuck.png" class="img-fluid" alt=""></div>
             <div class="col-md-4"></div>
             <div class="col-md-4"></div>
@@ -146,7 +124,7 @@ include('header.php');
     <h2 class="h1 fw-bold text-uppercase">How to Prepare for Tummy Tuck Surgery</h2>
                     
                     
-                    <ul class="lh ps-3">
+                    <ul class="lh ps-2 ps-md-4">
                         <li class="pb-2"><strong>Choose a Board-Certified Plastic Surgeon:</strong>  Ensure your surgeon is experienced and certified by a reputable medical board.</li>
                         <li class="pb-2"><strong>Discuss Your Goals:</strong> Clearly communicate your expectations and desired outcomes.</li>
                         <li class="pb-2"><strong>Medical Evaluation:</strong> The surgeon will review your medical history, conduct a physical exam, and possibly order lab tests to assess your suitability for the procedure.</li>
@@ -161,7 +139,7 @@ include('header.php');
 <!-- Breast Reduction: The Procedure -->
 <section class="x-section pt-0">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
             <iframe class="default-frame" src="https://youtube.com/embed/LUMfatcR4jw"></iframe>
             </div>
@@ -178,7 +156,7 @@ include('header.php');
     <div class="container">
     <div class="pe-4">
                     <h2 class="h1 fw-bold text-uppercase">Ideal Candidates for Tummy Tuck Surgery</h2>
-                    <ul class="lh">
+                    <ul class="lh ps-2 ps-md-4">
                         <li class="mb-2"><strong>Non-Smokers:</strong> Smoking can impede healing and increase the risk of complications. Ideal candidates should be non-smokers or willing to quit well before the surgery.</li>
                         <li class="mb-2"><strong>Stable Weight:</strong> Candidates should be at or near their ideal weight and have maintained a stable weight for several months. Significant weight fluctuations can affect the surgery’s results.</li>
                         <li class="mb-2"><strong>Post-Pregnancy: </strong>Women who have had multiple pregnancies may benefit from a tummy tuck to tighten abdominal muscles and remove excess skin.</li>
@@ -196,8 +174,8 @@ include('header.php');
 <section class="x-section pb-3">
     <div class="container">
     <div class="pe-4">
-                    <h2 class="text-center  fw-bold text-uppercase">Risks and Considerations</h2>
-                    <ul class="lh">
+                    <h2 class="text-md-center  fw-bold text-uppercase">Risks and Considerations</h2>
+                    <ul class="lh ps-2 ps-md-4">
                         <li class="mb-2"><strong>Scarring:</strong> While the scars can fade over time, they are permanent.</li>
                         <li class="mb-2"><strong>Complications:</strong> As with any surgery, there are risks such as infection, bleeding, and complications from anesthesia.</li>
                         <li class="mb-2"><strong>Realistic Expectations: </strong>It’s essential for patients to have realistic expectations and understand that while the procedure can dramatically improve the appearance, it may not achieve perfection.</li>

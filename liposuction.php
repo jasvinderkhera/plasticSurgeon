@@ -35,33 +35,11 @@ include('header.php');
     </div>
 </section>
 
-<!-- slot-Banner -->
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 
 <!-- Types of Tummy Tuck Procedures -->
 
@@ -110,7 +88,7 @@ include('header.php');
                     <h2 class=" fw-bold text-uppercase">Who is a Good Candidate for Liposuction?</h2>
                     
                     <p class="lh">Ideal candidates for lipo surgery are individuals who:</p>
-                    <ul class="lh ps-3">
+                    <ul class="lh ps-2 ps-md-3">
                         <li class="pb-2"><strong>Are Close to Their Ideal Weight:</strong> It is most effective for those who are within 30% of their ideal body weight.</li>
                         <li class="pb-2"><strong>Have Localized Fat Deposits:</strong> It targets stubborn fat areas that are resistant to diet and exercise, such as the abdomen, hips, thighs, buttocks, arms, and neck.</li>
                         <li class="pb-2"><strong>Have Good Skin Elasticity:</strong> Firm, elastic skin helps in achieving smoother results post-procedure.</li>
@@ -136,12 +114,12 @@ include('header.php');
 <section class="x-section pt-0">
     <div class="container">
                 <div class="adv shadow-lg">
-                    <h2 class=" fw-bold text-center text-uppercase mb-2">Recovery Time After Liposuction</h2>
+                    <h2 class=" fw-bold text-md-center text-uppercase mb-2">Recovery Time After Liposuction</h2>
                     <p class="lh">The recovery time for fat removal surgery varies depending on the extent of the procedure and the individual’s overall health.</p>
                     
                     <div class="list">
                         <p class="lh fw-bold">Immediate Post-Surgery (First Few Days):</p>
-                    <ul class="lh ps-4">
+                    <ul class="lh ps-2 ps-md-4">
                     <li class="mb-2"><strong>First 24-48 Hours: </strong>You may experience swelling, bruising, and discomfort. Pain can be managed with prescribed medications.</li>
                     <li class="mb-2"><strong>Compression Garments: </strong>You will likely need to wear a compression garment to reduce swelling and support the treated area.</li>
                 </ul>
@@ -149,7 +127,7 @@ include('header.php');
 
                     <div class="list">
                         <p class="lh fw-bold">First Week:</p>
-                    <ul class="lh ps-4">
+                    <ul class="lh ps-2 ps-md-4">
                     <li class="mb-2"><strong>Rest and Limited Activity: </strong>It’s important to rest and avoid strenuous activities. Most people can return to light activities after a few days.</li>
                     <li class="mb-2"><strong>Follow-Up Visit: </strong>You will have a follow-up appointment with your surgeon to monitor your healing progress.</li>
                 </ul>
@@ -157,7 +135,7 @@ include('header.php');
 
                     <div class="list">
                         <p class="lh fw-bold">2-4 Weeks:</p>
-                    <ul class="lh ps-4">
+                    <ul class="lh ps-2 ps-md-4">
                     <li class="mb-2"><strong>Gradual Return to Normal Activities: </strong>You can slowly resume normal activities, but it’s advisable to avoid intense physical exercise.</li>
                     <li class="mb-2"><strong>Continued Swelling and Bruising: </strong>Swelling and bruising will gradually decrease, but some swelling may persist for a few weeks.</li>
                 </ul>
@@ -165,7 +143,7 @@ include('header.php');
 
                     <div class="list">
                         <p class="lh fw-bold">1-3 Months:</p>
-                    <ul class="lh ps-4">
+                    <ul class="lh ps-2 ps-md-4">
                     <li class="mb-2"><strong>Significant Improvement: </strong>Most swelling and bruising should subside, and you will begin to see the results more clearly.</li>
                     <li class="mb-2"><strong>Resume Exercise: </strong>You can usually return to your regular exercise routine, but it’s important to follow your surgeon’s advice.</li>
                 </ul>
@@ -173,7 +151,7 @@ include('header.php');
 
                     <div class="list">
                         <p class="lh fw-bold">3-6 Months:</p>
-                    <ul class="lh ps-4">
+                    <ul class="lh ps-2 ps-md-4">
                     <li class="mb-2"><strong>Final Results: </strong>Your body will continue to heal, and the final results of the fat removal will become more apparent. Any residual swelling should resolve by this time.</li>
                 </ul>
                     </div>                 

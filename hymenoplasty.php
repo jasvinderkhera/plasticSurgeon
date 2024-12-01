@@ -15,7 +15,7 @@ include('header.php');
 </section>
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
                 <div class="">
                     <h2 class="h1 fw-bold text-uppercase">Hymenoplasty </h2>
@@ -23,7 +23,7 @@ include('header.php');
                     Hymenoplasty, also known as hymen reconstruction surgery, is a surgical procedure aimed at restoring or repairing the hymen, a thin membrane located at the vaginal opening. This procedure is typically performed for cultural, religious, or personal reasons and is often associated with the concept of virginity.
                     </p>
                     <p class="lh">If you’re seeking the best surgeon for hymenoplasty surgery, contact Konarc Aesthetics for a discreet and confidential procedure. </p>
-                    <p class=" mt-5 "><a href="" class="btn-default">SEE RESULTS</a></p>
+                    <p class=" mt-5 text-center text-md-start"><a href="" class="btn-default">SEE RESULTS</a></p>
                     
                 </div>
             </div>
@@ -36,32 +36,10 @@ include('header.php');
     </div>
 </section>
 
-<!-- slot-Banner -->
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 
 
 
@@ -71,7 +49,7 @@ include('header.php');
     <div class="container">
     <h2 class="h1 fw-bold text-uppercase">Why Do People Choose Hymenoplasty Surgery?</h2>
     <p class="lh">Individuals may opt for hymenoplasty for various reasons: </p>
-    <ul class="lh pe-3">
+    <ul class="lh ps-2 ps-md-4">
         <li class="mb-2"><strong>Cultural or Religious Beliefs </strong>In some cultures, an intact hymen is seen as a sign of virginity and purity. Women may choose hymenoplasty to meet these cultural or religious expectations.</li>
         <li class="mb-2"><strong>Personal or Emotional Reasons:  </strong>  Some women choose hymenoplasty to regain a sense of control or healing after a traumatic experience.</li>
         <li class="mb-2"><strong>Aesthetic Reasons: </strong>For some, hymenoplasty is a way to restore the hymen for personal satisfaction or confidence.</li>
@@ -83,14 +61,14 @@ include('header.php');
 
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6 d-flex align-items-start">
                 <div class="pe-3">
                     <h2 class="h1 fw-bold text-uppercase">How is the Procedure Performed?
                     </h2>
                   <p class="lh">Hymen repair surgery is a relatively simple outpatient procedure that typically takes about 30 to 60 minutes. Here’s how it works:</p>
 
-                  <ul class="lh pe-3">
+                  <ul class="lh ps-2 ps-md-4">
                     <li class="mb-2">
                         <strong>Anesthesia:</strong>
                         The patient is usually given local anesthesia, though some may opt for general anesthesia.
@@ -120,9 +98,9 @@ include('header.php');
 <section class="x-section pt-0">
     <div class="container">
                 <div class="adv shadow-lg">
-                    <h2 class=" fw-bold text-center text-uppercase mb-3">Recovery and Aftercare</h2>
+                    <h2 class=" fw-bold text-md-center text-uppercase mb-3">Recovery and Aftercare</h2>
                       <p class="lh">After hymenoplasty, it’s important to follow your surgeon’s aftercare instructions to ensure proper healing:</p>
-                      <ul class="lh pe-3">
+                      <ul class="lh ps-2 ps-md-4">
                     <li class="mb-2">
                         <strong>Avoid Strenuous Activities:</strong>
                         Refrain from heavy lifting, intense exercise, or activities that may strain the area.
@@ -148,7 +126,7 @@ include('header.php');
 
 <section class="x-section">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
         <div class="col-md-4"><img src="./assets/images/hymenoplasty/img1.png" class="img-fluid" alt=""></div>
         <div class="col-md-4"><img src="./assets/images/hymenoplasty/img2.png" class="img-fluid" alt=""></div>
         <div class="col-md-4"></div>
@@ -165,7 +143,7 @@ include('header.php');
     Hymenoplasty, like any surgical procedure, comes with its own set of risks and considerations. While generally safe when performed by an experienced surgeon, it’s important to be aware of the potential risks involved.
     </p>
 
-    <ul class="lh pe-3">
+    <ul class="lh ps-2 ps-md-4">
         <li class="mb-3"><strong>Infection </strong>One of the most common risks associated with any surgery is infection. To minimize this risk, it’s crucial to follow post-operative care instructions, keep the area clean, and take any prescribed antibiotics.</li>
         <li class="mb-3"><strong>Pain and Discomfort </strong> Post-surgery, you may experience some pain, swelling, or discomfort in the vaginal area. This is usually temporary and can be managed with prescribed pain medication.</li>
         <li class="mb-3"><strong>Scarring </strong>There is a possibility of scarring, which could lead to discomfort or complications later on. However, skilled surgeons aim to minimize visible scarring.</li>
@@ -228,7 +206,7 @@ include('header.php');
     <p class="lh">The surgeon will evaluate your medical history, conduct a physical examination, and discuss any potential risks to ensure the procedure is safe for you.</p>
 
 
-    <h2 class="text-uppercase text-center fw-bold">Consultation and Professional Guidance</h2>
+    <h2 class="text-uppercase text-md-center fw-bold">Consultation and Professional Guidance</h2>
     <p class="lh">If you’re considering hymenoplasty, consult with our qualified surgeon at Konarc Aesthetics to discuss your reasons, expectations, and any potential risks. A thorough consultation will help you make an informed decision that’s right for you.</p>
     <p class="lh">Hymenoplasty is a procedure that addresses personal and often sensitive needs. Whatever your reason for considering it, make sure you have all the information and support you need to make the best decision for your well-being.</p>
     </div>

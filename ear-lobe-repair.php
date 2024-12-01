@@ -15,7 +15,7 @@ include('header.php');
 </section>
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
                 <div class="">
                     <h2 class="h1 fw-bold text-uppercase">Microtia Ear | Ear Reconstruction Surgery </h2>
@@ -33,32 +33,10 @@ include('header.php');
     </div>
 </section>
 
-<!-- slot-Banner -->
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 
 
 
@@ -80,8 +58,8 @@ include('header.php');
 <section class="x-section pt-0 pb-5">
     <div class="container">
                 <div class="adv shadow-lg">
-                    <h3 class=" fw-bold text-center text-uppercase mb-3">Common Reasons for Microtia Ear Reconstruction Surgery</h3>
-                    <ul class="lh">
+                    <h3 class=" fw-bold text-md-center text-uppercase mb-3">Common Reasons for Microtia Ear Reconstruction Surgery</h3>
+                    <ul class="lh ps-2 ps-md-4">
                         <li class="mb-2"><strong>Torn Ear Lobes:</strong>Often caused by earrings getting caught or pulled, leading to a split in the ear lobe.</li>
                         <li class="mb-2"><strong>Stretched Ear Lobes:</strong>Caused by wearing heavy earrings over time or by using gauges to intentionally stretch the ear lobes.</li>
                         <li class="mb-2"><strong>Irregular Ear Piercings:</strong> Poorly placed piercings that result in uneven or misshapen ear lobes.</li>
@@ -119,11 +97,11 @@ include('header.php');
 
 <section class="x-section pt-0">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-8">
             <h2 class="h1 fw-bold text-uppercase">Benefits of a Facelift</h2>
                 <p class="lh">Here are some key benefits of undergoing a facelift procedure:</p>
-                <ul class="lh">
+                <ul class="lh ps-2 ps-md-4">
                     <li class="mb-2"><strong>Youthful Appearance:</strong>Restore the contours of your face and neck, reducing the signs of aging.</li>
                     <li class="mb-2"><strong>Natural Results: </strong>Achieve a refreshed look without the “pulled” appearance.</li>
                     <li class="mb-2"><strong>Long-Lasting Effects:</strong>Enjoy the benefits of your facelift for many years with proper care.</li>
@@ -143,10 +121,10 @@ include('header.php');
 
 <section class="x-section pb-5">
     <div class="container">
-    <h2 class="h1 fw-bold text-center text-uppercase">Why Choose Konarc Aesthetics for Ear Lobe Repair?</h2>
+    <h2 class="h1 fw-bold text-md-center text-uppercase">Why Choose Konarc Aesthetics for Ear Lobe Repair?</h2>
     <p class="lh mb-4">At Konarc Aesthetics, we prioritize personalized care and precision in every cosmetic procedure, including ear lobe repair. Our experienced surgeon, Dr. Preeti Yadav, brings a wealth of expertise and a commitment to delivering outstanding results. We understand that every patient is unique, which is why we tailor each procedure to your specific anatomy and aesthetic goals. With minimal downtime and a focus on your comfort, we aim to help you achieve a natural, symmetrical look that restores both your appearance and confidence.</p>
 
-    <h2 class="h4 fw-bold text-center text-uppercase">Ready to Restore Your Ear Lobes?</h2>
+    <h2 class="h4 fw-bold text-md-center text-uppercase">Ready to Restore Your Ear Lobes?</h2>
     <p class="lh">
     Don’t let torn or stretched ear lobes affect your self-esteem any longer. Our ear reconstruction surgery procedure can help you regain the natural appearance of your ears with a quick, straightforward solution. <strong>Contact us today</strong> to schedule a consultation and take the first step towards restoring your look!
     </p>

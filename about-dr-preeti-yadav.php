@@ -33,7 +33,7 @@ include('header.php');
                 </div>
             </div>
             <div class="col-md-6 aboutBg">
-                   <div class="aboutOverlay bg-white py-5 px-5 mx-3">
+                   <div class="aboutOverlay d-none d-md-block bg-white py-5 px-5 mx-3">
                         <div class="row">
                                 <div class="col-md-6">
                                         <p class="lh">Our mission is to offer world-class personalized services that focus on every patient's needs.</p>
@@ -55,40 +55,18 @@ include('header.php');
         include('procedure.php');
         ?>
     
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 
-    <!-- slot-Banner -->
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- about dr. Preeti Section -->
 <section class="x-section mainBorderBottom pb-0">
         <div class="container">
                 <div class="row justify-content-between">
                         <div class="col-md-6">
-                                <img src="./assets/images/heroSectionImage.png" alt="">
+                                <img src="./assets/images/heroSectionImage.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md-6">
                                 <h6 class="text-uppercase">Plastic Surgeon in Gurgaon</h6>

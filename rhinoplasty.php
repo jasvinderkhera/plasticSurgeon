@@ -16,12 +16,12 @@ include('header.php');
 </section>
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
                 <div class="pe-4">
                     <h2 class="h1 fw-bold text-uppercase">Rhinoplasty </h2>
                     <p class="lh mb-5">Rhinoplasty, commonly known as a “nose job,” is a popular cosmetic surgery that reshapes the nose to improve its appearance and function. Whether you’re looking to correct a structural issue, such as a deviated septum, or seeking to enhance the overall harmony of your facial features, rhinoplasty offers a customized solution. Rhinoplasty surgeon can address various concerns, including the size, shape, and proportion of the nose, helping you achieve a balanced and aesthetically pleasing look.</p>
-                    <p class=" mt-5"><a href="" class="btn-default">SEE RESULTS</a></p>
+                    <p class=" mt-5 text-center text-md-start"><a href="" class="btn-default">SEE RESULTS</a></p>
                     
                 </div>
             </div>
@@ -32,37 +32,19 @@ include('header.php');
         </div>
     </div>
 </section>
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
+
+
 <section class="x-section">
     <div class="container">
-    <div class="pe-4">
+    <div class="pe-md-4 ">
                     <h2 class=" fw-bold text-uppercase">How IT Works?</h2>
                     <p class="lh">Nose Plastic Surgery is a highly individualized procedure that can be performed using either an open or closed technique, depending on the patient’s needs and the surgeon’s approach.</p>
-                    <ul class="lh">
+                    <ul class="lh ps-2 ps-md-4">
                         <li><strong>Open Rhinoplasty:</strong>In this method, a small incision is made on the columella, the tissue between the nostrils, allowing the surgeon to lift the skin and gain better access to the underlying structures. This approach is often used for more complex cases, where significant reshaping or correction is required.</li>
                         <li><strong>Closed Rhinoplasty:</strong>In this technique, all incisions are made inside the nostrils, leaving no visible scars. Closed nose job is typically used for less extensive adjustments and is associated with a quicker recovery time.</li>
                     </ul>
@@ -71,7 +53,7 @@ include('header.php');
                 </div>
     </div>
 </section>
-<section class="x-section">
+<section class="x-section pt-0">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -96,11 +78,11 @@ include('header.php');
         </div>
     </div>
 </section>
-<section class="x-section">
+<section class="x-section pt-0">
     <div class="container">
     <div class="pe-4">
                     <h2 class=" fw-bold text-uppercase mb-2">Benefits of Nose Plastic Surgery</h2>
-                    <ul class="lh">
+                    <ul class="lh ps-2 ps-md-4">
                         <li class="mb-2"><strong>Enhanced Facial Harmony:</strong> By reshaping the nose, this surgery can bring greater balance to the facial features, enhancing overall attractiveness.</li>
                         <li class="mb-2"><strong>Boosted Confidence:</strong> Many patients experience a significant boost in self-esteem after nose plastic surgery, feeling more comfortable and confident in their appearance.</li>
                         <li class="mb-2"><strong>Improved Breathing:</strong> For those with structural issues, nose surgery can also improve nasal function, leading to better breathing and a higher quality of life.</li>
@@ -126,10 +108,10 @@ include('header.php');
     <div class="container-xxl">
         <div class="row">
             <div class="col-md-6">
-                <div class="pe-4">
+                <div class="pe-md-4">
                     <h2 class="h1 fw-bold text-uppercase">What Are the Risks of Rhinoplasty?</h2>
                     <p class="lh">Like any surgical procedure, this surgery comes with certain risks, including bleeding, infection, and allergic reactions to anesthesia. Specific risks associated with Nose plastic surgery may include:</p>
-                    <ul class="lh">
+                    <ul class="lh ps-2 ps-md-4">
                         <li>Numbness</li>
                         <li>Nosebleeds</li>
                         <li>Scarring at the base of the nose</li>

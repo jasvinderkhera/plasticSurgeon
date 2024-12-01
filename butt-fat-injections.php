@@ -26,39 +26,17 @@ include('header.php');
             </div>
             <div class="col-md-6">
                 <iframe class="default-frame" src="https://youtube.com/embed/gMjUg-f61A0"></iframe>
-                    <p class=" mt-5"><a href="" class="btn-default">SEE RESULTS</a></p>
+                    <p class="text-center text-md-start mt-5"><a href="" class="btn-default">SEE RESULTS</a></p>
                    
             </div>
         </div>
     </div>
 </section>
 
-<!-- slot-Banner -->
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 
 
 <!-- How Does Buccal Fat Removal Differ from Cheek Liposuction? -->
@@ -110,16 +88,16 @@ include('header.php');
 <section class="x-section pt-0">
     <div class="container">
                 <div class="adv shadow-lg">
-                    <h2 class=" fw-bold text-center text-uppercase mb-3">Are You a Candidate?</h2>
+                    <h2 class=" fw-bold text-md-center text-uppercase mb-3">Are You a Candidate?</h2>
                     <p class="lh mb-3">Ideal candidates for butt fat injections are individuals who:</p>
-                        <ul class="lh ps-4">
+                        <ul class="lh ps-2 ps-md-4">
                             <li class="mb-2">Have enough excess fat in other areas of the body for harvesting.</li>
                             <li class="mb-2">Are in good overall health and have realistic expectations for the outcome.</li>
                             <li class="mb-2">Desire a more natural enhancement without synthetic implants.</li>
                             <li class="mb-2">Want to improve the contour of both their buttocks and donor areas.</li>
                         </ul>
 
-                   <h2 class="text-uppercase fw-bold text-center">What to Expect After the Procedure</h2>
+                   <h2 class="text-uppercase fw-bold text-md-center">What to Expect After the Procedure</h2>
                     <p class="lh">After the procedure, it’s normal to experience some swelling, bruising, and discomfort in both the donor and injection sites. Your surgeon will recommend wearing a compression garment to help reduce swelling and support your new shape. Over the next few months, the fat cells will settle, and you’ll see the full results of your buttock injections.</p>
                     </div>                 
                     

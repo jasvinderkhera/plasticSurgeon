@@ -38,32 +38,10 @@ include('header.php');
     </div>
 </section>
 
-<!-- slot-Banner -->
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 
 
 
@@ -73,7 +51,7 @@ include('header.php');
     <div class="container">
     <h2 class="h1 fw-bold text-uppercase">How Does Hair Transplant Work?</h2>
     <p class="lh">There are two primary methods of hair transplantation: Follicular Unit Transplantation (FUT) and Follicular Unit Extraction (FUE).</p>
-    <ul class="lh pe-3">
+    <ul class="lh ps-2 ps-md-4">
         <li class="mb-2"><strong>Follicular Unit Transplantation (FUT): </strong>This technique involves removing a strip of skin with hair follicles from the donor area, usually at the back of the head. The strip is then divided into individual follicular units, which are meticulously transplanted into the recipient area. FUT is known for its ability to transplant a large number of grafts in a single session, making it ideal for those with extensive hair loss.</li>
         <li class="mb-2"><strong>Follicular Unit Extraction (FUE): </strong>  In this method, individual hair follicles are extracted directly from the donor area using a tiny punch tool. These follicles are then transplanted one by one into the thinning or bald areas. FUE is a less invasive option compared to FUT, with minimal scarring and a quicker recovery time. It is suitable for patients who prefer a less noticeable surgical procedure.</li>
     </ul>
@@ -127,7 +105,7 @@ include('header.php');
             <div class="col-md-6 d-flex align-items-start">
                 <div class="pe-3">
                     <h2 class=" fw-bold text-uppercase">Benefits of Hair Transplant Surgery</h2>
-                   <ul class="lh pe-3">
+                   <ul class="lh ps-2 ps-md-4">
                     <li class="mb-2"><strong>Natural Appearance: </strong>The transplanted hair grows naturally, blending seamlessly with existing hair. The results are permanent, providing a long-term solution to hair loss.</li>
                     <li class="mb-2"><strong>Boosts Confidence: </strong>For many, hair loss can significantly affect self-esteem. A successful hair transplant can restore not just hair, but also confidence and a positive self-image.
                     </li>
@@ -153,7 +131,7 @@ include('header.php');
 
     <section class="x-section pb-4 pt-0">
         <div class="container">
-            <h2 class="text-center text-uppercase fw-bold">Why Choose Us for Your Hair Transplant in Gurgaon?
+            <h2 class="text-md-center text-uppercase fw-bold">Why Choose Us for Your Hair Transplant in Gurgaon?
             </h2>
 
          <p class="lh">

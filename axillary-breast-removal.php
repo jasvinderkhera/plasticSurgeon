@@ -15,7 +15,7 @@ include('header.php');
 </section>
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
                 <div class="">
                     <h2 class="h1 fw-bold text-uppercase">Axillary breast removal</h2>
@@ -32,32 +32,10 @@ include('header.php');
     </div>
 </section>
 
-<!-- slot-Banner -->
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 
 
 <!-- Causes and Symptoms -->
@@ -96,7 +74,7 @@ include('header.php');
 
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6 d-flex align-items-start">
                 <div class="pe-3">
                     <h2 class="h1 fw-bold text-uppercase">The Surgical Procedure</h2>
@@ -137,7 +115,7 @@ include('header.php');
 
 <section class="x-section">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-4">
                 <img src="./assets/images/breastAxillary1.png" alt="" class="img-fluid">
             </div>
@@ -155,7 +133,7 @@ include('header.php');
 
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6 d-flex align-items-start">
                 <div class="pe-3">
                     <h2 class="h1 fw-bold text-uppercase"> Potential Risks and Considerations</h2>
@@ -188,10 +166,10 @@ include('header.php');
 
  <section class="x-section pt-2 pb-4">
     <div class="container">
-        <h2 class="h1 fw-bold text-uppercase text-center">Why Choose Us for Axillary Breast Removal?</h2>
+        <h2 class="h1 fw-bold text-uppercase text-md-center">Why Choose Us for Axillary Breast Removal?</h2>
         <p class="lh">At <strong>Konarc Aesthetics</strong>, we are dedicated to ensuring your safety, comfort, and satisfaction throughout your treatment journey. Our skilled surgeon is an expert in the latest techniques and technologies, delivering natural and harmonious results. We tailor our care to each individual, focusing on achieving the look that best suits your body and goals.</p>
 
-        <h2 class="h1 fw-bold text-uppercase text-center">Consult with Our Expert</h2>
+        <h2 class="h1 fw-bold text-uppercase text-md-center">Consult with Our Expert</h2>
 
         <p class="lh">
         Considering axillary breast removal? Take the first step by scheduling a consultation with our experienced team. We’ll discuss your concerns, assess your needs, and create a personalized treatment plan to help you feel more confident and comfortable in your skin.

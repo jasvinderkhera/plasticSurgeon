@@ -35,33 +35,10 @@ include('header.php');
     </div>
 </section>
 
-<!-- slot-Banner -->
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 
 <!-- types of implants -->
 
@@ -69,7 +46,7 @@ include('header.php');
     <div class="container">
         <h2 class="h1 text-uppercase fw-bold">types of implants</h2>
         <p class="lh">There are two primary types of breast implants used in augmentation:</p>
-        <ul class="lh ps-4">
+        <ul class="lh ps-2 ps-md-4">
             <li><strong>Saline Implants: </strong>Filled with sterile salt water, saline implants are adjustable and provide a firm feel. In the rare case of a leak, the body absorbs the saline solution naturally.</li>
             <li><strong>Silicone Implants: </strong>These are filled with silicone gel, which feels more like natural breast tissue. Silicone implants are popular for their soft and natural look.</li>
         </ul>

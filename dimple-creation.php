@@ -33,31 +33,10 @@ include('header.php');
         </div>
     </div>
 </section>
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 <section class="x-section">
     <div class="container">
         <div class="row">
@@ -85,11 +64,11 @@ include('header.php');
 </section>
 <section class="x-section">
     <div class="container">
-    <div class="pe-4">
+    <div class="pe-md-4 ">
                     <h2 class="h1 fw-bold text-uppercase">Can Dimples Add Extra Beauty to Your Face?</h2>
                     <p class="lh">Dimples are often seen as a charming feature that can enhance the natural beauty of your face. These small indentations, typically visible when you smile, have a unique way of adding character and warmth to your expression. Here’s how dimples can contribute to your overall facial aesthetics:</p>
                    
-                    <ul class="ps-4 lh">
+                    <ul class=" lh ps-2 ps-md-4">
                     
                         <li class="mb-3"><strong>Accentuating Your Smile:</strong> Dimples naturally draw attention to your smile, making it appear more engaging and lively. They can add an extra layer of depth to your expressions, making you appear more approachable and friendly.</li>
                         <li class="mb-3"><strong>Enhancing Facial Symmetry:</strong> When placed strategically, dimples can create a pleasing balance on your face, enhancing its symmetry. This balance often aligns with what is perceived as aesthetically pleasing, adding to your overall attractiveness.</li>
@@ -122,11 +101,11 @@ include('header.php');
 
 <section class="x-section">
     <div class="container">
-    <div class="pe-4">
+    <div class="pe-md-4">
                     <h2 class="h1 fw-bold text-uppercase">Why Choose “Konarc Aesthetics” for Your Dimple Creation Surgery?</h2>
                     <p class="lh">Why trust your smile to anyone else? Discover why ‘Konarc Aesthetics’ is the top choice for expert dimple creation surgery.</p>
                    
-                    <ul class="ps-4 lh mb-4">
+                    <ul class="ps-2 ps-md-4 lh mb-4 ">
                     
                         <li class="mb-3"><strong>Experienced Surgeons:</strong> Our team of board-certified plastic surgeons specializes in facial cosmetic procedures, ensuring that you’re in expert hands.</li>
                         <li class="mb-3"><strong>Personalized Care:</strong> We believe in providing personalized care, tailoring each procedure to meet your specific aesthetic goals.</li>
@@ -136,7 +115,7 @@ include('header.php');
                       
                     </ul>
 
-                    <h4 class="fw-bold text-uppercase text-center">Ready to Enhance Your Smile?</h4>
+                    <h4 class="fw-bold text-uppercase text-md-center">Ready to Enhance Your Smile?</h4>
                     <p class="lh">If you’ve been considering dimple creation surgery, we’re here to help you achieve the look you desire. Schedule a consultation with our expert team today to learn more about the procedure and take the first step towards a more confident smile.</p>
                     <p class="lh">Reach out to us to schedule your consultation or to learn more about dimple creation surgery. Our team is here to answer all your questions and help you on your journey to a brighter, more charming smile.</p>
                   

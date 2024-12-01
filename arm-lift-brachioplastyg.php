@@ -15,11 +15,14 @@ include('header.php');
 </section>
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
                 <div class="">
                     <h2 class="h1 fw-bold text-uppercase">Arm Lift – Brachioplasty</h2>
-                    <p class=" mt-5"><a href="" class="btn-default">SEE RESULTS</a></p>
+                    <p class="lh">
+                    An arm lift, also known as brachioplasty, is a cosmetic surgical procedure designed to reshape and contour the upper arms. This surgery addresses issues such as sagging skin, excess fat, and loose tissues that often result from aging, weight loss, or genetics. The result is smoother, more toned arms that restore your confidence and enhance your overall appearance.
+                    </p>
+                    <p class=" mt-5 text-center text-md-start"><a href="" class="btn-default">SEE RESULTS</a></p>
                     
                 </div>
             </div>
@@ -32,43 +35,22 @@ include('header.php');
     </div>
 </section>
 
-<!-- slot-Banner -->
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+<!-- book -->
+<?php 
+include('book-your-slot.php')
+?>
 
 
 <!-- The Surgical Procedure -->
 
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6 d-flex align-items-start">
                 <div class="">
                     <h2 class=" fw-bold text-uppercase">Why Consider an Arm Lift?</h2>
-                    <ul class="lh">
+                    <ul class="lh ps-2 ps-md-4">
                         <li><strong>Eliminate Sagging Skin: </strong>Aging, significant weight loss, or genetic factors can lead to loose, hanging skin on the upper arms. An arm lift removes this excess skin, giving your arms a firmer, more youthful appearance.</li>
                         <li><strong>Enhance Arm Contours: </strong>By removing excess fat and tightening the underlying tissues, an arm lift improves the shape of your arms, providing a more defined and sculpted look.</li>
                         <li><strong>Boost Confidence: </strong>Many people feel self-conscious about the appearance of their arms, especially when wearing sleeveless clothing. An arm lift can help you feel more comfortable and confident in your skin.</li>
@@ -106,9 +88,9 @@ include('header.php');
 <section class="x-section pt-0">
     <div class="container">
                 <div class="adv shadow-lg">
-                    <h2 class=" fw-bold text-center text-uppercase mb-3">Recovery and Results </h2>
+                    <h2 class=" fw-bold text-md-center text-uppercase mb-3">Recovery and Results </h2>
                     
-                        <ul class="lh ps-4">
+                        <ul class="lh ps-2 ps-md-4">
                             <li class="mb-2"><strong>Recovery Time: </strong>Recovery from an arm lift surgery typically takes about 1 to 2 weeks. During this time, you may experience some swelling and discomfort, which can be managed with prescribed medications. It’s essential to follow your surgeon’s post-operative care instructions to ensure a smooth recovery.</li>
                             <li class="mb-2"><strong>Results: </strong>The results of an arm lift are long-lasting, provided you maintain a stable weight and a healthy lifestyle. You’ll notice an immediate improvement in the appearance of your arms, with final results becoming more evident as swelling subsides.</li>
                         </ul>
@@ -126,7 +108,7 @@ include('header.php');
     <div class="container">
         <h2 class=" fw-bold text-uppercase">Benefits of Arm Lift Surgery </h2>
         <p class="lh">Arm lift surgery, or brachioplasty, offers several benefits that can enhance both your appearance and confidence:</p>
-        <ul class="lh pe-3 mb-4">
+        <ul class="lh ps-2 ps-md-4 mb-4">
             <li class="mb-2"><strong>Improved Arm Contour: </strong> The procedure removes excess skin and fat, resulting in a more toned and defined appearance of the upper arms.</li>
             <li class="mb-2"><strong>Smoother Skin: </strong>By tightening and smoothing the underlying tissue, arm lift surgery gives your arms a more youthful and firm look.</li>
             <li class="mb-2"><strong>Increased Confidence: </strong>Many people feel self-conscious about sagging or loose skin on their arms. An arm lift can boost your confidence, allowing you to wear sleeveless clothing with ease.</li>
@@ -144,7 +126,7 @@ include('header.php');
 
 <section class="x-section pt-0">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
         
             <div class="col-md-6">  <iframe class="default-frame" src="https://youtube.com/embed/gMjUg-f61A0"></iframe></div>
             <div class="col-md-6">  <iframe class="default-frame" src="https://youtube.com/embed/gMjUg-f61A0"></iframe></div>
@@ -181,9 +163,9 @@ include('header.php');
 
  <section class="x-section pt-2 pb-4">
     <div class="container">
-        <h2 class=" fw-bold text-uppercase text-center">Is an Arm Lift Right for You?</h2>
+        <h2 class=" fw-bold text-uppercase text-md-center">Is an Arm Lift Right for You?</h2>
         <p class="lh">An arm lift is ideal for individuals who:</p>
-            <ul class="lh pe-3">
+            <ul class="lh ps-2 ps-md-4">
                 <li class="mb-2">Have significant sagging skin or excess fat on their upper arms.</li>
                 <li class="mb-2">Are in good overall health and have realistic expectations for the outcome of the surgery.</li>
                 <li class="mb-2">Are committed to maintaining a stable weight and healthy lifestyle post-surgery.</li>
