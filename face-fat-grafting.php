@@ -15,7 +15,7 @@ include('header.php');
 </section>
 <section class="x-section">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
                 <div class="pe-4">
                     <h2 class="h1 fw-bold text-uppercase">Face Fat Grafting</h2>
@@ -29,34 +29,13 @@ include('header.php');
         </div>
     </div>
 </section>
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- book your slot -->
+<?php
+ include('book-your-slot.php');
+ ?>
 <section class="x-section">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
                 <div class="pe-4">
                     <h2 class=" fw-bold text-uppercase">Benefits of Face Fat Grafting</h2>
@@ -120,7 +99,7 @@ include('header.php');
 
 <section class="x-section pt-0">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-4">
                 <img src="./assets/images/faceGrafting/1.png" alt="" class="img-fluid">
             </div>
@@ -136,9 +115,9 @@ include('header.php');
 
 <section class="x-section">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
-                <div class="pe-4">
+                <div class="pe-md-4 pe-0">
                     <h2 class="h1 fw-bold text-uppercase">Is Face Fat Grafting Right for You?</h2>
                     <p class="lh">Face fat grafting is an excellent option for individuals seeking a natural-looking solution to facial volume loss. Ideal candidates include those who:</p>
                     <ul class="lh ps-3">
@@ -167,7 +146,7 @@ include('header.php');
         <p class="lh">
         Our skilled surgeons will identify a suitable donor site, typically in areas like the abdomen or thighs, where excess fat can be safely harvested. Using a minimally invasive liposuction technique, we will gently extract the fat through small incisions using a thin cannula. This ensures minimal scarring and a quicker recovery. Following the procedure, you will spend a short recovery period at our facility to ensure your safety and comfort. 
         </p>
-        <p class="lh text-center">
+        <p class="lh text-md-center text-start">
         If you’re ready to explore the benefits of face fat grafting, <strong>contact us today</strong> to schedule your consultation and take the first step toward a more youthful, revitalized appearance!
         </p>
 

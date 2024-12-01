@@ -16,7 +16,7 @@ include('header.php');
     <div class="container-xxl">
         <div class="row">
             <div class="col-md-6">
-                <div class="pe-4">
+                <div class="pe-md-4 pe-0  pb-5 pb-md-0">
                     <h2 class="h1 fw-bold">Facelift: All You Need To Know</h2>
                     <p class="lh mb-5">Facelift, also known as rhytidectomy is a surgical procedure that basically deals
                         with sagging skin of your face and neck, and its almost permanent cure for double chin, jowls,
@@ -25,7 +25,7 @@ include('header.php');
                         Facelift surgery in gurgaon provides you longer lasting results as compared to noninvasive
                         treatments. Face lifting treatment is one time procedure with long lasting cost effective
                         solution.</p>
-                    <a href="" class="btn-default">SEE RESULTS</a>
+                    <p class="text-center text-md-start"><a href="" class="btn-default">SEE RESULTS</a></p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -34,36 +34,17 @@ include('header.php');
         </div>
     </div>
 </section>
-<section class="bg-primary x-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="slot-banner">
-                    <img src="assets/images/msg.svg" class="img-fluid img" alt="">
-                    <div class="text-white">
-                        <span>Get Support</span>
-                        <span class="d-block fw-bold">drpreetiyadav.com@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center text-end">
-                    <h3 class="text-uppercase fw-bold">Book Your Slot Today</h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-end">
-                    <a href="" class="btn-default">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+<!-- book your slot -->
+ <?php
+ include('book-your-slot.php');
+ ?>
+
 <section class="x-section">
     <div class="container">
-        <div class="row">
+        <div class="row gap-4 gap-md-0">
             <div class="col-md-6">
-                <div class="pe-4">
+                <div class="pe-md-4 pe-0">
                     <h2 class="h1 fw-bold text-uppercase">Benefits of a Facelift</h2>
                     <p class="lh mb-2">Here are some key benefits of undergoing a facelift procedure:</p>
                     <ul class="lh">
@@ -144,8 +125,8 @@ include('header.php');
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="pe-4">
-                    <h2 class="h1 fw-bold text-uppercase">Why Choose Us for Facelift Surgery in Gurgaon</h2>
+                <div class="pe-md-4 pe-0">
+                    <h2 class="h1 fw-bold text-center text-md-start text-uppercase">Why Choose Us for Facelift Surgery in Gurgaon</h2>
                     <ul class="lh whyChoose">
                         <li><strong>Experienced Surgeons: </strong>Our board-certified surgeons are highly skilled in facelift procedures, with years of experience delivering exceptional results.</li>
                         <li><strong>State-of-the-Art Facility:</strong> We use the latest technology and techniques to ensure the highest standards of care.

@@ -169,4 +169,24 @@
         .footerBox2{
             gap: 50px;
         }
+
+
+
+        .x-section {
+            padding: 40px 15px;
+        }
+
+
+
+        .slot-banner .img {
+            width: 40px;
+        }
+        
+        .adv {
+            max-width: 100%;
+            padding:40px 20px;
+        }
+    
+    
+    
     }
